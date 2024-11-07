@@ -1,0 +1,405 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color:#0f1a1e;
+  }
+
+body{
+    background-color:hsl(148, 20%, 38%);
+}
+
+.logo{
+    margin-top:18px;
+    margin-left:10px;
+    margin-right: 10px;
+
+}
+
+.navbar{
+    height: 60px;
+    width:100%;
+    
+}
+.nav-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ul>li>a{
+    text-decoration: none;
+    margin-left:25px;
+    font-size: 20px;
+    font-family: 'Courier New';
+    color:black;
+   
+}
+
+ul>li{
+    display: inline-block;
+    list-style: none;
+    margin-top:18px;
+}
+
+.text{
+    position: absolute;
+    bottom:400px;
+    margin-left:20%;
+    font-size: 2.5rem;
+    font-family: 'Harrington';
+    color: #0f1a1e;
+    animation: fade-in 5s ;
+}
+@keyframes fade-in{
+    0%
+    {
+        opacity: 0;
+    }
+
+    50%
+    {
+        opacity: 0.4;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.hero-img{
+    background: url(images/hero-banner-2.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    animation: back-img 6s infinite linear;
+   
+}
+
+@keyframes back-img {
+
+   
+
+    75%{
+        background-image: url(images/hero-banner-3.jpg);
+        background-size: 100%;
+        
+    }
+
+   
+}
+
+.cont{
+    box-sizing: border-box;
+    height: 100px;
+    width:100%;
+    
+}
+
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+
+    margin: 20px;
+    font-family: 'french script MT';
+    font-size: 2rem;
+}
+
+.img-2{
+    margin: 15px;
+  
+    
+}
+
+.container{
+    height: 510px;
+    width: 100%;
+    background-image: url(images/ele2.jpg);
+    background-size: cover;
+}
+.bx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 10%;
+    margin-left: 15%;
+    transform: rotate(15deg);
+    
+}
+
+
+
+.card1{
+    margin-top: 15%;
+    margin-left: -20%;
+    transform: rotate(15deg); 
+}
+
+
+.main-container{
+   
+    
+    height: 350px;
+    width:100%;
+    background-color: whitesmoke;
+    
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+
+p{
+    position:relative;
+    bottom:60%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.price{
+    font-size: 1.2rem;
+
+}
+a{
+    position: relative;
+    bottom:30%;
+    font-size: 1rem;
+    text-decoration: none;
+    color:black;
+    margin-left: 35%;
+    font-weight: 700;
+}
+
+a:hover{
+    color:palevioletred;
+}
+
+.crd1{
+    margin-top: 35px;
+}
+.crd2{
+    margin-top: 35px;
+}
+.crd3{
+    margin-top: 35px;
+}
+
+
+.main-content{
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+    border: transparent;
+    background-color: white;
+}
+.bx2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h2{
+   margin:50px;
+   font-size:2.5rem;
+   font-family: 'Courier New', Courier, monospace;
+}
+.prdct-name{
+    font-size: 18px;
+   position: relative;
+   bottom:50px;
+   font-family: 'Harrington';
+}
+.prdct1>img{
+    transition: all 2s  linear;
+}
+.prdct1>img:hover{
+    transform: translateY(10px);
+}
+.prdct2>img{
+    transition: all 2s  linear;
+}
+.prdct2>img:hover{
+    transform: translateY(10px);
+}
+.prdct3>img{
+    transition: all 2s  linear;
+}
+.prdct3>img:hover{
+    transform: translateY(10px);
+}
+.prdct4>img{
+    transition: all 2s  linear;
+}
+.prdct4>img:hover{
+    transform: translateY(10px);
+}
+.prdct5>img{
+    transition: all 2s  linear;
+}
+.prdct5>img:hover{
+    transform: translateY(10px);
+}
+
+span{
+    position: relative;
+    bottom:30px;
+    left:45%;
+    font-size: 1.2rem;
+}
+
+
+.hero-header-1{
+    height: 450px;
+    width: 100%;
+    
+}
+
+.img-5{
+    margin-top: 40px;
+   
+}
+.img-6{
+    margin-top: 40px;
+    margin-left: 8px; 
+}
+.hero-img-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading{
+    position: relative;
+    right: 29%;
+    top:-65%;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn{
+    font-size: 20px;
+    background-color: white;
+    padding: 12px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shop-sale{
+    height: 450px;
+    width:100%;
+    background-color: white;
+   
+}
+
+.h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bx3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.txt2{
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sale1{
+    margin-top: 30px;
+}
+
+.sale2{
+    margin-top: 30px;
+}
+
+.sale3{
+    margin-top: 30px;
+}
+
+.find-shop{
+    height: 450px;
+    width:100%;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+.bx4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.pic1{
+    margin-top: 40px; 
+}
+.pic2{
+    margin-top: 40px; 
+}
+.pic3{
+    margin-top: 40px; 
+}
+
+.blog{
+    position: relative;
+    bottom:-15%;
+    font-weight: 500;
+
+}
+
+.blog:hover{
+    color:rgb(59, 117, 59);
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+   
+}
+.products>img{
+ position: relative;
+ left:42%;
+ margin-top: 5%;
+}
+.product>img{
+    position: relative;
+    top:35px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+.fa-facebook{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.fa-twitter{
+    margin-right: 30px;
+    font-size: 20px;
+}
+.fa-instagram{
+    margin-right: 30px;
+    font-size: 20px;
+}
